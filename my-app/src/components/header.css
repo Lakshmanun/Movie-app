@@ -1,0 +1,86 @@
+header{
+    top: 0%;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    z-index: 44;
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -20px;
+}
+
+.linkitems{
+    display: flex;
+}
+.linkitems li{
+    margin: 20px;
+    text-decoration: none; 
+    color:#000;
+
+}.profile{margin-left: 30px;
+    cursor: pointer;
+}
+.profile .image {
+    display: flex;
+    padding-bottom: 20px;
+
+}
+.profile .image img{
+    margin-right: 20px;
+}
+.profile button{
+    font-size: 17px;
+    font-weight:500;
+}
+.profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.openprofile{
+color: #000;
+box-shadow: 0 2px 4px rgb(0,0,0/8%);
+position:absolute;
+top: 80px;
+right: 10px;
+width: 250px;
+background-color: #fff;
+padding-bottom: 10px;
+ 
+}
+.openprofile .box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    transition: 0.5s ease;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.openprofile .icon{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.openprofile h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.openprofile button:hover{
+background-color: rgb(147, 75, 255, 0.075);
+}
+.openprofile img {
+    margin-left: 15px;
+}
+.openprofile .image{
+    margin-top: 20px;
+}
+header.active{
+    position:sticky;
+    top: 0%;left: 0%;width: 100%;
+    box-shadow: 0 0 4px 0 rgb(115 115 115 /20%);
+}
+@media screen and (max-width:768px) {
+    nav{
+        display: none;
+    }
+}

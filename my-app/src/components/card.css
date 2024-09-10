@@ -1,0 +1,54 @@
+.blog{
+    margin: 50px 0;
+
+}
+
+ .boxItems{
+    transition: 0.5s;
+}
+ .boxItems:hover{
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: translateY(-5px);
+}
+.blog img {
+ 
+    height: 250px;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .blog .icon{
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .blog .tag a{
+    color: blue;
+    opacity: 0.7;
+  }
+  .blog .tag {
+    margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+  }
+
+  .blog h3{
+    font-weight: 500;
+  }
+  .blog p{
+    color:#999;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .blog .date{
+    display: flex;
+    align-items: center;
+  }
+  .blog .date label{
+    display: block;
+    margin-right: 20px;
+    
+  }
