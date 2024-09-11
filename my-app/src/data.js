@@ -74,6 +74,28 @@ export const category = [
     title: "There's always light at the end of the tunnel",
     cover: "../images/category/ca8.png",
   },
+  {
+    id: 9,
+    category: "Technology",
+    title: "There's always light at the end of the tunnel",
+    cover: "../images/category/ca9.png",
+  },{
+    id: 10,
+    category: "Technology",
+    title: "There's always light at the end of the tunnel",
+    cover: "../images/category/ca10.png",
+  },
+  {
+    id: 11,
+    category: "Technology",
+    title: "There's always light at the end of the tunnel",
+    cover: "../images/category/ca11.png",
+  },{
+    id: 12,
+    category: "Technology",
+    title: "There's always light at the end of the tunnel",
+    cover: "../images/category/ca12.jpg",
+  },
 ]
 export const blog = [
   {
